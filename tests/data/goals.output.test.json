@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Practice Piano",
+    "type": "count",
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "valueUnit": "min"
+  },
+  {
+    "id": 2,
+    "name": "Practice Piano",
+    "type": "frequency",
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "value": 20,
+    "valueUnit": "min",
+    "frequency" : 3,
+    "frequencyUnit": "day",
+    "dateBy": "2026-01-31T00:00:00.000Z"
+  },
+  {
+    "id": 3,
+    "name": "Practice Piano",
+    "type": "progress",
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "value": 100,
+    "valueUnit": "min",
+    "dateBy": "2026-01-31T00:00:00.000Z"
+  },
+  {
+    "id": 4,
+    "name": "Practice Piano",
+    "type": "streak",
+    "startDate": "2026-01-01T00:00:00.000Z",
+    "value": 20,
+    "valueUnit": "min",
+    "dateBy": "2026-01-31T00:00:00.000Z"
+  }
+]

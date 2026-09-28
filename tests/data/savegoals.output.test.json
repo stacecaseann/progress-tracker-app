@@ -1,0 +1,13 @@
+[
+  {
+    "id": "1",
+    "name": "Practice Piano",
+    "type": "frequency",
+    "startDate": "2026-01-01T07:00:00.000Z",
+    "value": 20,
+    "valueUnit": "min",
+    "frequency": 3,
+    "frequencyUnit": "week",
+    "dateBy": "2026-01-31T07:00:00.000Z"
+  }
+]
