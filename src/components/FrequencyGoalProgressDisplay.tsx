@@ -18,12 +18,12 @@ export function FrequencyGoalProgressDisplay({ progress }: Props) {
     const circles = [];
     for (let i = 0; i < frequency; i++) {
       if (i < numberOfDays) {
-        console.log("In first");
+        // console.log("In first");
         circles.push(
           <Ionicons key={i} name="checkmark-circle" size={30} color="#99C1B9" />
         );
       } else {
-        console.log("In second");
+        // console.log("In second");
         circles.push(
           <Ionicons key={i} name="ellipse-outline" size={30} color="#99C1B9" />
         );

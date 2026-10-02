@@ -1,56 +1,35 @@
-# Welcome to your Expo app 👋
+# Overview
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is an app to make and keep goals. There are 4 different types of goals:
 
-## Get started
+1. Count Goal- count the number of minutes/hours/pages that you spend on a certain goal.
+2. Progress Goal - Set a goal to reach a certain number of minutes/hours/pages
+3. Streak Goal - Set a daily goal and earn a streak
+4. Frequency Goal - Set a goal to do something daily/times per week/times per month.
 
-1. Install dependencies
+Setting goals is my passion in life and I wanted a way to track progress a little differently than other habit apps I have used.
 
-   ```bash
-   npm install
-   ```
+[Software Demo Video](https://youtu.be/PGwT2APgcdk)
 
-2. Start the app
+# Development Environment
 
-   ```bash
-   npx expo start
-   ```
+I built off of a typescript console app and converted it to a React Native mobile app. I used Expo to develop and run the application
 
-In the output, you'll find options to open the app in a
+Some libraries that I used:
+React Native
+Expo as the tool to develop
+@react-native-vector-icons/ionicons for Icons
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Useful Websites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- [React Native Documentation](https://reactnative.dev/docs)
+- [React Native Tutorial](https://www.youtube.com/watch?v=BUXnASp_WyQ)
 
-## Get a fresh project
+# Future Work
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-### Other setup steps
-
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Add error handling
+- Add the ability to edit the goals
+- Make the display better
+- Add more options for value besides hours/minutes/pages
+- Add plural/single words to descriptions
+- Work out start/end dates for the goals and progress a little better
